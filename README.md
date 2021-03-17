@@ -55,4 +55,23 @@ What do you think the total of two six-sided die will be? 10
 The total was 10.  Congratulations! It took you 3 tries to guess successfully.
 ![image](https://user-images.githubusercontent.com/45652016/109716774-5b135980-7bf9-11eb-9c38-2bbbcd637c73.png)
 
+Class 7: Scripting for Cybersecurity
 
+1. Build a function that takes the length of the three sides of a triangle and returns the area of the triangle.
+
+area = sqrt(s(s-a)(s-b)(s-c))**0.5
+
+s = (a+b+c)/2
+
+2. Write a function that calculates the perimeter of a circle.
+   Print the result outside the function.
+
+3. Use Randint, write a coin toss function that takes an input of how many coin tosses and then prints    out the randomly generated coin tosses.
+
+4. Write a script that asks the user for their name and creates a folder with that name.
+   Create a testfolder to work in.
+   Import the os module, use path, mkdirs, etc.
+
+5. Use a FOR loop to ask for 5 names and create folders in your working directory.
+
+6. Now use a while loop to ask for names for the folders. Stop when you type in "quit".
